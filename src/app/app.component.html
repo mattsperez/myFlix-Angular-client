@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <div class="main-page">
   <h1>
-    Welcom to myMovie App
+    Welcome to myFlix
   </h1>
   <button
     mat-raised-button
@@ -28,6 +28,13 @@
     color="primary"
   >
     Login
+  </button>
+  <button
+    mat-raised-button
+    color="primary"
+    (click)="openMoviesDialog()"
+  >
+    All Movies
   </button>
 </div>
 

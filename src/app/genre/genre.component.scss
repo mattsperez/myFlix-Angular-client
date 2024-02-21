@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Protest+Strike&display=swap");
+
+h3, .Description, button {
+    font-family: 'Comfortaa', sans-serif;
+    text-align: center;
+}
+
+button:hover {
+    opacity: 80%;
+}
+
+.Description {
+    font-weight: 300;
+}
+
+.genreButtonContainer {
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.btn-close {
+    color: coral;
+}

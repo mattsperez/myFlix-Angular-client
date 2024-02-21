@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Protest+Strike&display=swap");
+
+.movieTitle {
+  font-family: "Comforta", sans-serif;
+  font-weight: 700;
+}
+
+.directorName {
+  font-family: "Comforta Strike", sans-serif;
+  font-weight: 300;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 15px;
+  justify-content: center;
+  border: 2px solid coral;
+}
+
+.movie-card {
+  width: 90%;
+  max-width: 300px;
+  margin: 15px;
+  border-radius: 5px;
+  border: 1px solid coral;
+}
+
+.movie-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.movieImage {
+  max-width: 75%;
+  box-sizing: border-box;
+  border-radius: 5%;
+  border: 2px solid coral;
+}
+
+button {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 300;
+}
+
+.btn-favorite {
+  color: black;
+}
+
+.btn-favorite:active {
+  color: coral;
+}

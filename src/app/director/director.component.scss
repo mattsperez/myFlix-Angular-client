@@ -1,0 +1,23 @@
+p {
+    font-family: 'Comfortaa', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    color: #000;
+}
+
+span {
+    font-weight: 300;
+}
+
+button:hover {
+    opacity: 80%;
+}
+
+.directorButtonContainer {
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.btn-close {
+    color: coral;
+}
